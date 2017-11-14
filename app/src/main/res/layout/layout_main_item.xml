@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/size_5_dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_surroundings_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/size_5_dp"
+        android:text="传感器类型"
+        android:textColor="@color/colorEnlern"
+        android:textSize="@dimen/size_15_sp" />
+
+    <ImageView
+        android:id="@+id/iv_surroundings_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/serial04" />
+
+
+    <TextView
+        android:id="@+id/tv_surroundings_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/size_5_dp"
+        android:text="data"
+        android:textSize="@dimen/size_15_sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_10_dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="@dimen/size_40_dp"
+                android:layout_height="@dimen/size_40_dp"
+                android:src="@mipmap/enlern_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/size_10_dp"
+                android:layout_marginRight="@dimen/size_10_dp"
+                android:padding="@dimen/size_5_dp"
+                android:text="医疗Tablet服务器"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_10_dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:text="本机IP"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:id="@+id/tv_local_ip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:text=""
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:text="端口号"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/tv_local_port"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:background="@drawable/config_edit"
+                android:gravity="center_horizontal"
+                android:hint="9191"
+                android:padding="@dimen/size_5_dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:textSize="@dimen/text_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_10_dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_open_server"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_30_dp"
+                android:layout_margin="@dimen/size_5_dp"
+                android:background="@drawable/ll_background_top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="开启服务器"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_close_server"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_30_dp"
+                android:layout_margin="@dimen/size_5_dp"
+                android:background="@drawable/ll_background_top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="关闭服务器"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_download_server"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_30_dp"
+                android:layout_margin="@dimen/size_5_dp"
+                android:background="@drawable/ll_background_top"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="下发数据"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:text="上传"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size" />
+
+
+            <EditText
+                android:id="@+id/et_return_data"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="4"
+                android:background="@drawable/config_edit"
+                android:gravity="center_horizontal"
+                android:hint="等待数据..."
+                android:padding="@dimen/size_5_dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:textSize="@dimen/text_size" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:textSize="@dimen/size_20_dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:text="下发"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size" />
+
+
+            <EditText
+                android:id="@+id/et_download_data"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="4"
+                android:background="@drawable/config_edit"
+                android:gravity="center_horizontal"
+                android:hint="请输入数据..."
+                android:padding="@dimen/size_5_dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size_5_dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/size_5_dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

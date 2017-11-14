@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_5_dp"
+        android:padding="@dimen/size_5_dp"
+        android:text="请输入需要发送的内容"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/size_15_sp" />
+
+    <EditText
+        android:id="@+id/editText_send_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_5_dp"
+        android:inputType="number"
+        android:padding="@dimen/size_5_dp"
+        android:textColor="@color/text_color" />
+</LinearLayout>

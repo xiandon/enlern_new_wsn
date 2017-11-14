@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">New WSN</string>
+    <string name="title_home">Home</string>
+    <string name="title_node">Config</string>
+    <string name="title_data">Data</string>
+    <string name="title_fragment_name">default title</string>
+
+    <string name="config_basic">Basic config</string>
+    <string name="config_detailed">Detailed config</string>
+    <string name="config_way_of_communication">commune type</string>
+    <string name="config_access_web">Access Web</string>
+    <string name="config_wifi_ssid">Wifi SSID</string>
+    <string name="config_ip_address">Ip address</string>
+    <string name="config_bluetooth_status">Bluetooth status</string>
+    <string name="case_analysis">Case analysis</string>
+
+    <string name="wsn_intelligent_agriculture">WSN intelligent agriculture</string>
+    <string name="wsn_smart_transportation">WSN smart transportation</string>
+    <string name="wsn_rf_reader">WSN rf reader</string>
+    <string name="wsn_medical_care">WSN Medical care</string>
+    <string name="bluetooth_open">bluetooth open</string>
+    <string name="bluetooth_close">bluetooth close</string>
+    <string name="network_normal">network normal</string>
+    <string name="network_abnormal">network abnormal</string>
+    <string name="no_network">no network</string>
+    <string name="network_2G">2G network</string>
+    <string name="network_3G">3G network</string>
+    <string name="network_4G">4G network</string>
+    <string name="network_WIFI">wifi network</string>
+    <string name="network_unknown">Unknown network</string>
+    <string name="communication_settings">commune settings</string>
+    <string name="no_wifi">no wifi</string>
+    <string name="single_bluetooth">single bluetooth</string>
+
+    <string-array name="common_type">
+        <item>wifi Tablet</item>
+        <item>wifi PC</item>
+        <item>Internet</item>
+        <item>蓝牙点对点</item>
+        <item>其他通信</item>
+    </string-array>
+
+
+</resources>

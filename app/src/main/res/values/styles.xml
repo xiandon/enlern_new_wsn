@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--自定义title引用-->
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBarStyle</item>
+    </style>
+
+    <!--自定义的ActionBar-->
+    <style name="AppThemeCustomStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--自定义title引用-->
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBarStyle</item>
+    </style>
+
+    <!--自定义的Title-->
+    <style name="MyActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@color/colorPrimary</item>
+        <!--解决左边一直有一块边距的问题 contentInsetStart = 0 -->
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+
+    <style name="textView_style">
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorBlue</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="textView_style2">
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/colorGreyDark</item>
+    </style>
+
+</resources>
